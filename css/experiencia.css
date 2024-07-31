@@ -99,7 +99,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .empresa {
     grid-template-columns: 320px;
     margin-left: 0px;

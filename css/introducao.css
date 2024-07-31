@@ -71,6 +71,9 @@
   .introducao p {
     font-size: 1rem;
   }
+  .introducao .especificacao {
+    text-align: center;
+  }
 }
 @media (max-width: 300px) {
   .introducao h1 {

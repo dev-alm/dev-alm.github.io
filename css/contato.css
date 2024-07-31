@@ -50,7 +50,7 @@
     grid-template-columns: 1fr;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .contato-texto{
     margin-left: -0px;
     text-align: center;

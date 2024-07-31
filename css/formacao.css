@@ -161,7 +161,7 @@
     margin-bottom: 10px;
   }
 }
-@media (max-width: 450px){
+@media (max-width: 500px){
   .formacao .subtitulo{
     font-size: 3rem;
     max-width: 20ch;
