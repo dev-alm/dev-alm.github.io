@@ -12,7 +12,7 @@
 }
 
 .contato::before {
-  content: '';
+  content: "";
   background: url(../img/detalhe.svg) no-repeat center;
   width: 130px;
   height: 100px;
@@ -22,9 +22,9 @@
 }
 
 .contato-texto {
-font-size: 1.2rem;
-margin: 110px 0px 80px 100px;
-line-height: 1.5;
+  font-size: 1.2rem;
+  margin: 110px 0px 80px 100px;
+  line-height: 1.5;
 }
 
 .contato-contato {
@@ -44,9 +44,26 @@ line-height: 1.5;
   color: rgb(131, 131, 131);
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .contato {
     display: block;
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 400px) {
+  .contato-texto{
+    margin-left: 0px;
+    text-align: center;
+  }
+  .contato-contato {
+    font-size: 1.6rem;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .rodape p{
+    margin-left: -127px;
+
+    text-align: center;
+  }
+}
+

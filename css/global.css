@@ -24,7 +24,7 @@
 }
 
 body {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
   font-family: 'fira-regular', arial, sans-serif;
 }
@@ -33,3 +33,4 @@ img {
   max-width: 100%;
   display: block;
 }
+

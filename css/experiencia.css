@@ -102,6 +102,14 @@
 @media (max-width: 400px) {
   .empresa {
     grid-template-columns: 1fr;
+    margin-left: 0px;
   }
-  
+  .experiencia .descricao {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .experiencia .subtitulo {
+    margin-left: 25px;
+    text-align: center;
+  }
 }

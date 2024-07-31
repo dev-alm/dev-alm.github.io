@@ -158,3 +158,11 @@
     margin-bottom: 10px;
   }
 }
+@media (max-width: 400px){
+  .formacao .subtitulo{
+    font-size: 4rem;
+    max-width: 9ch;
+    margin-left:0px ;
+    text-align: center;
+  }
+}
