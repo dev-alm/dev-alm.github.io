@@ -1,0 +1,84 @@
+.box {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.introducao {
+  max-width: 1200px;
+  padding: 40px 20px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.introducao h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+  position: relative;
+}
+
+.introducao h1::before {
+  content: "";
+  background: url(../img/detalhe.svg) no-repeat center;
+  display: block;
+  width: 130px;
+  height: 120px;
+  left:  -40px;
+  top: -25px;
+  z-index: -1;
+  position: absolute;
+}
+
+.especificacao p {
+  font-size: 1.3rem;
+  color:rgb(82, 82, 82);
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .introducao h1 {
+    font-size: 3rem;
+  }
+  .introducao h1::before {
+    width: 30px;
+    height: 10px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+  .introducao h1 {
+    font-size: 2.5rem;
+  }
+  .introducao img {
+    display: none;
+  }
+  .introducao p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 300px) {
+  .introducao h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .introducao p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .introducao h1::before {
+    display: none;
+  }
+}
