@@ -50,19 +50,18 @@
     grid-template-columns: 1fr;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .contato-texto{
-    margin-left: 0px;
+    margin-left: -0px;
     text-align: center;
   }
   .contato-contato {
     font-size: 1.6rem;
-    margin-left: 0px;
+    margin-left: -0px;
     text-align: center;
   }
   .rodape p{
-    margin-left: -127px;
-
+    margin-left: -117px;
     text-align: center;
   }
 }

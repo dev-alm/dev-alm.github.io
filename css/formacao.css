@@ -151,17 +151,20 @@
     color: #ffffff;
   }
   .formacao .descricao {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    max-width: 30ch;
+    text-align: center;
+    margin-left: 40px;
   }
   .formacao-extra h3::before {
     position: initial;
     margin-bottom: 10px;
   }
 }
-@media (max-width: 400px){
+@media (max-width: 450px){
   .formacao .subtitulo{
-    font-size: 4rem;
-    max-width: 9ch;
+    font-size: 3rem;
+    max-width: 20ch;
     margin-left:0px ;
     text-align: center;
   }

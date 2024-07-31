@@ -29,7 +29,7 @@
   display: block;
   width: 130px;
   height: 120px;
-  left:  -40px;
+  left: -40px;
   top: -25px;
   z-index: -1;
   position: absolute;
@@ -37,7 +37,7 @@
 
 .especificacao p {
   font-size: 1.3rem;
-  color:rgb(82, 82, 82);
+  color: rgb(82, 82, 82);
 }
 
 @media (max-width: 800px) {
@@ -52,6 +52,9 @@
     width: 30px;
     height: 10px;
     left: 0px;
+  }
+  .introducao .especificacao {
+    text-align: center;
   }
 }
 

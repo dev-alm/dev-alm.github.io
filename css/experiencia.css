@@ -99,17 +99,22 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .empresa {
-    grid-template-columns: 1fr;
+    grid-template-columns: 320px;
     margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
   .experiencia .descricao {
     margin-left: 0px;
     text-align: center;
+    font-size: 1rem;
   }
   .experiencia .subtitulo {
-    margin-left: 25px;
+    margin-left: 60px;
     text-align: center;
+    font-size: 6rem;
+    margin-bottom: 0px;
   }
 }
